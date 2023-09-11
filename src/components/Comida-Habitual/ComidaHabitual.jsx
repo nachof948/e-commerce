@@ -7,6 +7,7 @@ import Paella from './Imagenes/Paella.jpg'
 import Pizza from './Imagenes/Pizza.jpg'
 import Postre from './Imagenes/Postre.jpg'
 import { TarjetaHabitual } from './TarjetaHabitual';
+import { SlideComidaHabitual } from './Slide';
 
 const ComidaHabitual = () => {
   const comidasHabituales = [
@@ -85,6 +86,7 @@ const ComidaHabitual = () => {
           )
         })}
         </div>
+        <SlideComidaHabitual />
       </div>
     </section>
   )

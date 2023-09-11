@@ -1,0 +1,15 @@
+.slide{
+    display: flex;
+    gap: 2.5rem;
+}
+.slide span{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background-color: var(--verde-claro);
+    cursor: pointer;
+    transition: all 250ms;
+}
+span:hover{
+    background-color: var(--verde--oscuro);
+}
