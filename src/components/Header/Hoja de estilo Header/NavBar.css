@@ -1,0 +1,13 @@
+nav{
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+}
+nav a{
+    font-weight: 700;
+    font-size: 1.1rem;
+    transition: all 200ms ease;
+}
+nav a:hover{
+    color: var(--verde-claro);
+}

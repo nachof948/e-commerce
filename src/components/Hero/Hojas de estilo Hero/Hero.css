@@ -1,0 +1,69 @@
+.hero{
+    width: 100vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.circulo-verde-der{
+    width: 90rem;
+    height: 65rem;
+    background-color: var(--verde--oscuro);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 26rem;
+    left: 45rem;
+}
+.circulo-verde-izq{
+    width: 55rem;
+    height: 45rem;
+    background-color: var(--verde--oscuro);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 15rem;
+    left: 89rem;
+}
+.planta-hero{
+    position: absolute;
+    top: -0.3rem;
+    left: 0;
+}
+.contenedor-hero{
+    width: 85vw;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+@media (max-width:1900px) {
+    .circulo-verde-der{
+        left: 40rem;
+    }
+    .circulo-verde-izq{
+        left: 86rem;
+    }
+}
+@media (max-width:1750px) {
+    .circulo-verde-der{
+        left: 36rem;
+    }
+    .circulo-verde-izq{
+        left: 78rem;
+    }
+}
+@media (max-width:1650px) {
+    .circulo-verde-der{
+        left: 32rem;
+    }
+    .circulo-verde-izq{
+        left: 74rem;
+    }
+}
+@media (max-width:1600px) {
+    .circulo-verde-der{
+        left: 28rem;
+    }
+    .circulo-verde-izq{
+        left: 65rem;
+    }
+}

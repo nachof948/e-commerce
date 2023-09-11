@@ -1,0 +1,60 @@
+.imagenes-hero{
+    position: relative;
+    margin-right: 6rem;
+    z-index: 5;
+}
+.hero-comida-principal{
+    width: 30rem;
+    border-radius: 50%;
+    border: 2.3rem solid var(--verde-claro);
+    animation: girar infinite 40s linear;
+}
+.hero-comida-pequeña{
+    position: absolute;
+    width: 5.2rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: 0.4rem solid rgb(205,182,182);
+}
+.panqueque{
+    border: 0.4rem solid rgb(205,182,182);
+    top: 21rem;
+    left: 35.5rem;
+}
+.pancakes{
+    border: 0.4rem solid rgb(217,198,154);
+    top: 30rem;
+    left: 30rem;
+}
+.pescado{
+    border: 0.4rem solid rgb(182,181,182);
+    top: 35rem;
+    left: 14rem;
+}
+.vegetales{
+    border: 0.4rem solid rgb(237,173,131);
+    top: 30rem;
+    left: 0rem;
+}
+.arroz{
+    border: 0.4rem solid rgb(203,210,218);
+    top: 21rem;
+    left: -7rem;
+}
+@keyframes girar{
+    0%{
+        transform: rotate(0);
+    }
+    25%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

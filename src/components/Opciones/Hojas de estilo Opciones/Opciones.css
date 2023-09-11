@@ -1,0 +1,14 @@
+.seccion-opciones{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10rem 0rem 2rem;
+}
+.contenedor-opciones{
+    width: 85vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
