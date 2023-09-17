@@ -1,0 +1,6 @@
+.ayuda{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 1.5rem;
+}

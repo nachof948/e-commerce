@@ -1,0 +1,43 @@
+.suscribite{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 1.5rem;
+    margin-top: 0.5rem;
+}
+.suscribite h2{
+    line-height: 2rem;
+}
+.suscribite input{
+    position: relative;
+    background-color: transparent;
+    border: 2px solid rgb(132,183,78);
+    border-radius: 10px;
+    padding: 1.1rem 0.8rem 1rem;
+    width: 32rem;
+    font-size: 1.6rem;
+    color: grey;
+    outline: none;
+}
+.suscribite input::placeholder{
+    font-size: 1.6rem;
+    color: grey;
+}
+
+.suscribite button{
+    background-color: rgb(132,183,78);
+    border: 2px solid rgb(132,183,78);
+    font-size: 1.3rem;
+    color: white;
+    padding: 1.15rem 2rem;
+    border-radius: 10px;
+    position: absolute;
+    right: 8.37rem;
+    cursor: pointer;
+    transition: all 250ms;
+}
+.suscribite button:hover{
+    background-color: transparent;
+    border: 2px solid rgb(132,183,78);
+    color: rgb(132,183,78);
+}
