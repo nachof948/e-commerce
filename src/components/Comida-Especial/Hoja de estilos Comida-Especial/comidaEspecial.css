@@ -1,25 +1,17 @@
-.comida-habitual{
+.comida-especial{
     width: 100vw;
     display: flex;
     justify-content: center;
-    align-items: center;
     margin: 0 auto;
     padding: 2rem 0rem;
 }
-.contenedor-comida-habitual{
+.comida-especial-contenedor{
     width: 85vw;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 auto;
-    gap: 9rem;
-    padding: 2rem 0rem;
 }
-.comidas{
+.especiales{
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    gap: 6rem;
-    margin-top: 1rem;
 }

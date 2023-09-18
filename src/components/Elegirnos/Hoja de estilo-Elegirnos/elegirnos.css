@@ -1,0 +1,22 @@
+.elegirnos{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin: 4rem;
+    padding: 2rem 0rem;
+}
+.contenedor-elegirnos{
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor-elegirnos h1{
+    text-align: center;
+}
+.motivos{
+    display: flex;
+    align-items: center;
+    gap: 2.6rem;
+}

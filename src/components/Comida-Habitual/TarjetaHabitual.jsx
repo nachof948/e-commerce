@@ -8,7 +8,7 @@ const TarjetaHabitual = ({img, titulo, descripcion, precio, comprar, estrellas})
         <img className='tarjeta-habitual-img' src={img} alt=""/>
           <div className="tarjeta-textos-habitual">
             <h2>{titulo}</h2>
-            <div className="estrellas">
+            <div className="estrellasHabitual">
                 <img className="estrella" src={Estrella} alt=""/>
                 <img className="estrella"  src={Estrella} alt=""/>
                 <img className="estrella"  src={Estrella} alt=""/>

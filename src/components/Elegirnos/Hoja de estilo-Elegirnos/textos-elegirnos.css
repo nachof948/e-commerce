@@ -1,0 +1,11 @@
+.textos-elegirnos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.textos-elegirnos p{
+    text-align: center;
+    font-size: 1.3rem;
+    color: gray;
+    width: 70%;
+}

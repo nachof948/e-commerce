@@ -1,0 +1,11 @@
+.textos-especial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.textos-especial p{
+    text-align: center;
+    font-size: 1.3rem;
+    color: gray;
+    width: 60%;
+}
