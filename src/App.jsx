@@ -6,6 +6,7 @@ import { Opciones } from './components/Opciones/Opciones'
 import { Footer } from './components/Footer/Footer'
 import { Elegirnos } from './components/Elegirnos/Elegirnos'
 import { ComidaEspecial } from './components/Comida-Especial/ComidaEspecial'
+import { Chefs } from './components/Chef\'s/Chef'
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
       <Elegirnos />
       <ComidaEspecial />
       <ComidaHabitual />
+      <Chefs />
       <Footer />
     </>
   )
