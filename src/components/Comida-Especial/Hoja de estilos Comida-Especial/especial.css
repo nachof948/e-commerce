@@ -1,50 +1,61 @@
 .especial{
-    /* background-color: pink; */
     box-shadow: 5px 6px 20px rgba(0, 0, 0, 0.3);
-    width: 22rem;
-    height: 20rem;
+    width: 28rem;
+    height: 30rem;
     border-radius:10px;
     margin-top: 5em;
     position: relative;
+    padding-left: 2rem;
+    background-color: rgb(242,243,245);
 }
 .comida{
-    width: 4rem;
+    width: 18rem;
+    height: 18rem;
     border-radius: 50%;
+    background-color: #84B74E;
+    padding: 1rem;
+    position: absolute;
+    top: -5rem;
+    left: 12rem;
+    object-fit: cover;
 }
 
-.prod{
- font-size: 1.8rem;
- letter-spacing: 0.8px;
- margin-bottom: 0.2em;
-position: absolute;
-bottom: 3em;
-left: 0.6em;
-   
+.especial h2{
+    font-size: 3rem;
+    letter-spacing: 1px;
+    font-weight: 900;
+    margin: 0;
+    position: absolute;
+    bottom: 10rem;
 }
 
 .estrellas{
     position: absolute;
-    top: 14.2rem;
-    left: 1em;
+    top: 21rem;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    gap: 0.6rem;
     background-color: transparent;
+}
+.estrellas img{
+    width: 2.1rem;
+    height: 2.1rem;
 }
 
 .num{
     color: gray;
-    font-size: 0.6rem;
-    margin-left: 0.5em;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-left: 0.5rem;
 }
 .precio{
     position: absolute;
-    top: 10em;
+    top: 22rem;
     font-weight: bold;
-    left: 0.7em;
     color: #84B74E;
-    font-size: 1.5rem;
+    font-size: 3rem;
     letter-spacing: 0.5px;
 }
 
@@ -53,13 +64,11 @@ left: 0.6em;
     position: absolute;
     bottom: 0;
     right: 0;
-    padding: 1.5em;
+    padding: 3rem 2.5rem;
     border-radius:8px;
     cursor: pointer;
+    transition: all 250ms;
 }
-
-.bolsasa{
-  background-color: transparent;
-  width: 2.3em;
-  height: 2.3em;
+.bolsa:hover{
+    background-color: #aed882;
 }

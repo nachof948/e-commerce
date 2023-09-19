@@ -1,13 +1,13 @@
 import React from 'react';
 import './Hoja de estilos Comida-Especial/especial.css'
-import Estrella from './Imagenes/icons8-estrella-relleno-18.png'
+import Estrella from './Imagenes/icons8-estrella.png'
 import BolsaDeCompra from './Imagenes/icons8-bolsa-de-compras-45.png'
 
 const Especial = ({img, titulo, precio}) => {
   return(
     <div className="especial">
       <img className="comida" src={img} alt=""/>
-      <b className="prod">{titulo}</b>
+      <h2>{titulo}</h2>
       <div className="estrellas">
           <img src={Estrella} alt=""/>
           <img src={Estrella} alt=""/>

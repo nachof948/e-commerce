@@ -1,7 +1,7 @@
 import React from 'react';
 import './Hojas de estilo Comida-Habitual/Slide.css'
 
-const SlideComidaHabitual = () => {
+const Slide = () => {
   return(
       <div className='slide'>
         <span></span>
@@ -12,4 +12,4 @@ const SlideComidaHabitual = () => {
   )
 }
 
-export { SlideComidaHabitual }
+export { Slide }

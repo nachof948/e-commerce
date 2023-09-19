@@ -2,7 +2,8 @@ import React from 'react';
 import './Hoja de estilos Comida-Especial/comidaEspecial.css'
 import { TextosComidaEspecial } from './TextosComidaEspecial';
 import { Especial } from './Especial';
-import Ensalada from './Imagenes/ensalda.jpg'
+import { Slide } from '../Comida-Habitual/Slide';
+import Ensalada from './Imagenes/Ensalada.jpg'
 import Pescado from './Imagenes/pescado.jpeg'
 import HuevoMasala from './Imagenes/toshuev.jpg'
 import uniqid from 'uniqid';
@@ -47,6 +48,7 @@ const ComidaEspecial = () => {
             )
           })}
         </div>
+        <Slide />
       </div>
     </section>
   )
